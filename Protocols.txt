@@ -1,0 +1,19 @@
+INTERNET PROTOCOL (IP)
+Internet Protocol (IP) is a connectionless protocol that manages addressing data from
+one point to another, and fragments large amounts of data into smaller, transmittable
+packets. The major components of Internet Protocol datagrams are:
+www.syngress.com
+16 Chapter 1 • Introducing Network Scanning
+■ IP Identifi cation (IPID) Used to uniquely identify IP datagrams and for
+reassembly of fragmented packets.
+■ Protocol Describes the higher-level protocol embedded within the
+datagram.
+■ Time-to-live (TTL) Attempts to keep datagrams and packets from routing
+in circles. When TTL reaches 0, the datagram is dropped. The TTL allows
+traceroute to function, identifying each router in a network by sending out
+datagrams with successively increasing TTLs, and tracking when those TTLs
+are exceeded.
+■ Source IP Address The IP address of the host where the datagram was
+created.
+■ Destination IP Address The destination where the datagram should
+be sent.
