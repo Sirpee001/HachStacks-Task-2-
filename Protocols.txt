@@ -2,8 +2,7 @@ INTERNET PROTOCOL (IP)
 Internet Protocol (IP) is a connectionless protocol that manages addressing data from
 one point to another, and fragments large amounts of data into smaller, transmittable
 packets. The major components of Internet Protocol datagrams are:
-www.syngress.com
-16 Chapter 1 • Introducing Network Scanning
+
 ■ IP Identifi cation (IPID) Used to uniquely identify IP datagrams and for
 reassembly of fragmented packets.
 ■ Protocol Describes the higher-level protocol embedded within the
